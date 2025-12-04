@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/API/">
+    <Project Path="CQRS_Demo/CQRS_Demo.csproj" />
+  </Folder>
+  <Folder Name="/Application/">
+    <Project Path="CreateStudent/Commands.csproj" />
+    <Project Path="GetStudentById/Queries.csproj" />
+    <Project Path="IAppDbContext/Interfaces.csproj" />
+    <Project Path="StudentDto/Data.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Persistence/Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Common/Common.csproj" Id="b912a402-e414-4987-94bb-bd4ee7c7e82d" />
+  </Folder>
+</Solution>
