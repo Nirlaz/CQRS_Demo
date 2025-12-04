@@ -127,7 +127,7 @@ Now open Swagger UI 👇
 
 | Technology | Purpose |
 |-----------|----------|
-| ASP.NET Core (.NET 8+) | API Backend |
+| ASP.NET Core (.NET 10) | API Backend |
 | EF Core InMemory       | Database |
 | CQRS Pattern           | Read/Write Split |
 | Swagger                | API Testing UI |
@@ -138,7 +138,6 @@ Now open Swagger UI 👇
 
 - Add Unit Tests (xUnit/Moq)
 - Add FluentValidation
-- Add MediatR Pipeline
 - Optional Migration to SQL Server/PostgreSQL
 
 ---
