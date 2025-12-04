@@ -101,7 +101,8 @@ Now open Swagger UI 👇
 
    </td>
 </table>
-### 📝 Example Body
+
+## 📝 Example Body
 
 ```json
 {
