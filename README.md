@@ -65,13 +65,15 @@ C --> D
 ```bash
 # Clone Repo
 git clone https://github.com/your-user/cqrs-crud-api.git
-cd cqrs-crud-api
+cd CQRS_Demo
+cd CQRS_Demo
 
 # Build
 dotnet build
 
 # Run API
-dotnet run --project ./API
+dotnet run
+dotnet run 
 ```
 
 Now open Swagger UI 👇  
