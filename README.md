@@ -1,4 +1,4 @@
-
+[
 # 🚀 CQRS CRUD API (ASP.NET Core) — Full Example with Clean Architecture
 
 [![.NET](https://img.shields.io/badge/.NET-8-blue.svg)]()
@@ -35,12 +35,13 @@ CQRS-CRUD/
 
 CQRS splits the system into:
 
-| Command (Writes) | Query (Reads) |
+| Command (Writes) | Query (Reads) |                      
 |------------------|---------------|
 | Create           | Get All       |
 | Update           | Get By Id     |
 | Delete           | Returns Data  |
 | Changes Data     | Faster Reads  |
+
 
 This improves **scalability, maintainability, readability and testability**.
 
@@ -82,6 +83,9 @@ Now open Swagger UI 👇
 ---
 
 ## 📌 API Endpoints
+<table>
+  <tr>
+    <td>
 
 | Method | Endpoint             | Description          |
 |--------|----------------------|----------------------|
@@ -91,7 +95,13 @@ Now open Swagger UI 👇
 | PUT    | /Update-student      | Update Student       |
 | DELETE | /Delete-student-Id   | Delete Student       |
 
+</td>
+    <td>
 
+<img src="https://github.com/user-attachments/assets/22692823-d2ac-4d87-9f83-a7878eb5794f" width="400" />
+
+   </td>
+</table>
 ### 📝 Example Body
 
 ```json
@@ -145,3 +155,4 @@ git push origin feature/update-api
 ```
 
 ⭐ Give this project a star if it helped you!
+](url)
