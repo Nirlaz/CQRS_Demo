@@ -82,21 +82,21 @@ Now open Swagger UI 👇
 ## 📌 API Endpoints
 
 | Method | Endpoint             | Description          |
-|-------|----------------------|----------------------|
-| POST  | /api/student         | Create Student       |
-| GET   | /api/student         | Get All Students     |
-| GET   | /api/student/{id}    | Get Student By ID    |
-| PUT   | /api/student/{id}    | Update Student       |
-| DELETE| /api/student/{id}    | Delete Student       |
+|--------|----------------------|----------------------|
+| GET    | /Get-All-Students    | Get All Students     |
+| POST   | /Create-student      | Create Student       |
+| GET    | /Get-student-Id      | Get Student By ID    |
+| PUT    | /Update-student      | Update Student       |
+| DELETE | /Delete-student-Id   | Delete Student       |
 
 
 ### 📝 Example Body
 
 ```json
 {
-  "name": "John Doe",
-  "email": "john@example.com",
-  "age": 22
+  "FullName": "Nirlaz Gnawali",
+  "Age": "21",
+  "Class": 1
 }
 ```
 
@@ -105,13 +105,8 @@ Now open Swagger UI 👇
 ```json
 {
   "success": true,
-  "message": "Student created successfully",
-  "data": {
-    "id": "a3d9-id",
-    "name": "John Doe",
-    "email": "john@example.com",
-    "age": 22
-  }
+  "message": "Student create succesfully",
+  "data": "eacba6d5-77d9-4d3a-8add-755b1adb1780"
 }
 ```
 
