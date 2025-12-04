@@ -1,8 +1,7 @@
-[
+
 # 🚀 CQRS CRUD API (ASP.NET Core) — Full Example with Clean Architecture
 
-[![.NET](https://img.shields.io/badge/.NET-8-blue.svg)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
+[![.NET](https://img.shields.io/badge/.NET-10-blue.svg)]()
 [![Status](https://img.shields.io/badge/Project-Active-success.svg)]()
 
 This repository demonstrates a simple and beginner-friendly implementation of **CQRS (Command Query Responsibility Segregation)** in ASP.NET Core using a clean separation of **Write (Command)** and **Read (Query)** logic.
